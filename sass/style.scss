@@ -1,0 +1,13 @@
+@import './reset', './text';
+
+body {
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  align-items: center;
+  column-gap: 10rem;
+}
